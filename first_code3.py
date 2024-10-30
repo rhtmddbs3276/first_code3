@@ -4,3 +4,9 @@ for i in range(1, 11):  # range(1, 11)은 1부터 10까지의 범위를 의미
     total += i
 
 print(f"1부터 10까지의 합: {total}")
+
+def calc_area(x, y):
+    result = x * y
+    return result
+
+
